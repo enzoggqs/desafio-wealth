@@ -21,7 +21,7 @@
     <hr class="text-yellow-300 bg-yellow-300 w-80 my-10">
     
     <div class="mb-12 text-center">
-      <h2 class="md:text-2xl text-xl mb-6 text-yellow-200">Check the historical value of a coin</h2>
+      <h2 class="md:text-2xl text-xl mb-6 text-yellow-200">Check the historical value of this coin</h2>
       <label for="datetime" class="block mb-2 md:text-xl text-lg">Select Date and Time:</label>
       <div class="mt-2">
         <input type="datetime-local" v-model="datetime" id="datetime" class="p-2 text-black bg-white md:text-sm text-sm h-8"/>
