@@ -1,5 +1,5 @@
 <template lang="">
-    <div class="bg-yellow-300 text-gray-900 py-3.5 px-6 shadow md:flex justify-between items-center">
+    <div class="bg-yellow-300 text-gray-900 py-3.5 px-6 shadow md:flex justify-between items-center fixed w-full top-0 z-50">
         <div class="flex items-center">
             <span class="text-gray-900 text-xl mr-1">
                 <i class="bi bi-coin"></i>

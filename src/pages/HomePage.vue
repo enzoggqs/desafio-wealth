@@ -1,12 +1,12 @@
 <template>
-  <div class="py-40 flex flex-col items-center min-h-[94vh] bg-gray-900 text-white">
+  <div class="md:pt-40 pt-52 flex flex-col items-center min-h-[100vh] bg-gray-900 text-white">
     <h1 class="md:text-5xl text-4xl mb-24 text-yellow-300">Coin Price Tracker</h1>
     
     <div class="text-center">
       <h2 class="md:text-2xl text-xl mb-6 text-yellow-200">Check the current value of a coin</h2>
       <div class="flex mb-6">
         <h4 class="md:text-xl text-lg">Select the coin to search</h4>
-        <select @change="fetchCurrentPrice" v-model="selectedCurrency" class="p-2 text-black bg-white ml-2 text-sm">
+        <select @change="fetchCurrentPrice" v-model="selectedCurrency" class="p-2 text-black bg-white ml-2 text-sm h-8">
           <option value="bitcoin">Bitcoin</option>
           <option value="dacxi">DACXI</option>
           <option value="eth">ETH</option>
@@ -24,7 +24,7 @@
       <h2 class="md:text-2xl text-xl mb-6 text-yellow-200">Check the historical value of a coin</h2>
       <label for="datetime" class="block mb-2 md:text-xl text-lg">Select Date and Time:</label>
       <div class="mt-2">
-        <input type="datetime-local" v-model="datetime" id="datetime" class="p-2 text-black bg-white md:text-sm text-sm"/>
+        <input type="datetime-local" v-model="datetime" id="datetime" class="p-2 text-black bg-white md:text-sm text-sm h-8"/>
         <button @click="fetchHistoricalPrice" class="ml-2 p-2 bg-yellow-300 rounded md:text-sm text-sm text-gray-900 hover:bg-yellow-500">Get Price</button>
       </div>
       <div v-if="isHistoricalLoading" class="md:text-xl text-lg mt-6">Loading...</div>
