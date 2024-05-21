@@ -17,6 +17,9 @@ Axios: Axios is used for making HTTP requests to fetch current and historical pr
 Vite: Vite is a build tool that is used to serve and build the application. It offers fast build times and hot module replacement (HMR) out of the box.
 Vue Test Utils: Vue Test Utils is used for unit testing Vue components. It provides utilities for mounting components, interacting with them, and making assertions.
 
+## Simplicity and Single Page Design
+The application is designed as a single-page application without using Vue Router. This decision was made because the requirements of the application were simple and did not necessitate additional pages or complex navigation. In scenarios where the application might involve more complex features such as user registration, login, or multi-step processes, using a router would be essential. For this project, however, consolidating all features on a single page made the application more straightforward and user-friendly.
+
 ## Installation
 
 1. Clone the repository:
