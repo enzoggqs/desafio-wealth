@@ -22,10 +22,10 @@
 import { ref } from 'vue';
 export default {
     setup(){
-        let open = ref(true)
+        let open = ref(false)
         let Links = [
             {name: "Github", link: "https://github.com/enzoggqs"},
-            {name: "Linkedin", link: "https://www.linkedin.com/in/enzoggqs/"},
+            {name: "LinkedIn", link: "https://www.linkedin.com/in/enzoggqs/"},
         ]
 
         function MenuOpen(){
