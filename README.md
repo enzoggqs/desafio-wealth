@@ -3,6 +3,8 @@
 ## Overview
 The Coin Price Tracker is a web application that allows users to check the current and historical prices of various cryptocurrencies. Users can select a specific cryptocurrency, such as Bitcoin or Ethereum, and view its current price in USD. Additionally, users can also retrieve historical price data for a specific date and time.
 
+### Deploy: https://desafio-wealth.vercel.app/
+
 ## Features
 - Current Price: Users can select a cryptocurrency from the dropdown menu to view its current price in USD.
 - Historical Price: Users can input a date and time to retrieve historical price data for a selected cryptocurrency.
