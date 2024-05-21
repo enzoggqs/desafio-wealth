@@ -1,6 +1,6 @@
 <script setup>
-import HomePage from './pages/HomePage.vue'
-import NavBar from './components/NavBar.vue'
+import HomePage from './pages/HomePage/HomePage.vue'
+import NavBar from './components/NavBar/NavBar.vue'
 
 </script>
 

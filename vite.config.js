@@ -5,6 +5,10 @@ import { createProxyMiddleware } from 'http-proxy-middleware';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
+  coverage: {
+    provider: 'istanbul'
+  },
+  environment: 'happy-dom',
   server: {
     proxy: {
       '/api': {
